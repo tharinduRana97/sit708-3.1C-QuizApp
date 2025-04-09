@@ -35,6 +35,7 @@ public class ResultActivity extends AppCompatActivity {
             Intent intent = new Intent(ResultActivity.this, MainActivity.class);
             startActivity(intent);
             finish();
+            // finishAffinity(); //finish the tasks and exit the application
         });
     }
 }
